@@ -1,4 +1,3 @@
-// Actor.java
 package com.example.filmapi.model;
 
 import jakarta.persistence.*;
@@ -14,5 +13,4 @@ public class Actor {
     @ManyToMany(mappedBy = "actori")
     private List<Film> filme;
 
-    // Getters and setters
 }

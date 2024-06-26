@@ -1,4 +1,3 @@
-// Film.java
 package com.example.filmapi.model;
 
 import jakarta.persistence.*;
@@ -35,5 +34,4 @@ public class Film {
     )
     private List<Actor> actori;
 
-    // Getters and setters
 }

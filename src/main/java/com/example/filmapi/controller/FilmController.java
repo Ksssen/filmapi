@@ -1,4 +1,3 @@
-// FilmController.java
 package com.example.filmapi.controller;
 
 import com.example.filmapi.model.Film;
@@ -25,5 +24,4 @@ public class FilmController {
         return filmService.addFilm(film);
     }
 
-    // Alte metode pentru manipularea filmelor
 }

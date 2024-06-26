@@ -1,4 +1,3 @@
-// Gen.java
 package com.example.filmapi.model;
 
 import jakarta.persistence.*;
@@ -14,5 +13,4 @@ public class Gen {
     @OneToMany(mappedBy = "gen")
     private List<Film> filme;
 
-    // Getters and setters
 }

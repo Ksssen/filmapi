@@ -1,4 +1,3 @@
-// Titlu.java
 package com.example.filmapi.model;
 
 import jakarta.persistence.*;
@@ -14,5 +13,4 @@ public class Titlu {
     @OneToMany(mappedBy = "titlu")
     private List<Film> filme;
 
-    // Getters and setters
 }

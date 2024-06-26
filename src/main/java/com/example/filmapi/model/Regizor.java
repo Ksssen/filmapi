@@ -1,4 +1,3 @@
-// Regizor.java
 package com.example.filmapi.model;
 
 import jakarta.persistence.*;
@@ -14,5 +13,4 @@ public class Regizor {
     @OneToMany(mappedBy = "regizor")
     private List<Film> filme;
 
-    // Getters and setters
 }

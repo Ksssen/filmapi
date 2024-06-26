@@ -1,4 +1,3 @@
-// FilmService.java
 package com.example.filmapi.service;
 
 import com.example.filmapi.model.Film;
@@ -22,5 +21,4 @@ public class FilmService {
         return filmRepository.save(film);
     }
 
-    // Alte metode pentru manipularea filmelor
 }

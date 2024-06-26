@@ -1,4 +1,3 @@
-// RegizorRepository.java
 package com.example.filmapi.repository;
 
 import com.example.filmapi.model.Regizor;

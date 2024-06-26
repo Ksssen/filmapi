@@ -1,4 +1,3 @@
-// Nota.java
 package com.example.filmapi.model;
 
 import jakarta.persistence.*;
@@ -14,5 +13,4 @@ public class Nota {
     @OneToMany(mappedBy = "nota")
     private List<Film> filme;
 
-    // Getters and setters
 }
